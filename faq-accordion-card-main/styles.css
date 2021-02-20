@@ -115,3 +115,7 @@ input[type="checkbox"] {
 .collapsible-content p {
 	margin-bottom: 0;
 }
+
+.toggle:checked + .card__faq-items-arrow {
+    transform: rotate(180deg) translateX(-3px);
+}
