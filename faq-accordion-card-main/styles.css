@@ -55,6 +55,10 @@ p {
     border-radius: 20px;
     width: 80%;
     box-shadow: 0px 22px 70px -30px #000;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: -115% 65%;
 }
 
 .card__faq-items {
@@ -65,6 +69,10 @@ p {
 .card__image {
     width: 50%;
     float: left;
+}
+
+.card__image-desktop{
+    position: absolute;
 }
 
 .card__faq-items-arrow {
