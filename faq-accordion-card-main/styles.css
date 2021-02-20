@@ -108,7 +108,7 @@ input[type="checkbox"] {
 	transition: max-height 0.25s ease-in-out;
 }
 
-.toggle:checked+.toggle+.collapsible-content {
+.toggle:checked + .toggle + .collapsible-content {
 	max-height: 500px;
 }
 
